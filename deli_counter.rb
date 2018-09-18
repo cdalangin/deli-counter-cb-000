@@ -8,6 +8,6 @@ def line(katz_deli)
        index = index.to_i + 1
      current << "#{index}. #{people} "
      end
-  puts "The line is currently:" current.join
+  puts "The line is currently:" + current.join
   end
 end
