@@ -2,7 +2,6 @@
 def line(katz_deli)
   if katz_deli.length == 0
     puts "The line is currently empty."
-  end
  else
    current = []
      array.each_with_index do |people, index|
@@ -10,5 +9,5 @@ def line(katz_deli)
      current << "#{index}. #{people} "
      end
   puts "The line is currently:" current.join
-end
+  end
 end
