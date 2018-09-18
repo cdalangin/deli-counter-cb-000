@@ -14,6 +14,6 @@ end
 
 def take_a_number(katz_deli, name)
   if katz_deli == 0
-    katz_deli.push(name)
+    katz_deli << name
   end
 end
