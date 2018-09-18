@@ -6,7 +6,7 @@ def line(katz_deli)
    current = []
      katz_deli.each_with_index do |people, index|
        index = index.to_i + 1
-     current << "#{index}. #{people} "
+     current << " #{index}. #{people}"
      end
   puts "The line is currently:" + current.join
   end
